@@ -5,13 +5,13 @@
 2. [Tests](#tests)
     * [Command](#command)
 3. [Structs](#structs)
-4. [Pointer]
+4. [Pointers](#pointers)
 
 # Basic Syntax
 
 ## Hello World
 File `hello.go`:
-```go
+```
 package main
 
 import "fmt"
@@ -30,7 +30,8 @@ func main() {
 `go test`
 
 
-```type person struct {
+```
+type person struct {
 	firstName string
 	lastName  string
 }
@@ -51,7 +52,8 @@ func main() {
 
 # Structs
 
-```type contactInfo struct {
+```
+type contactInfo struct {
 	email   string
 	zipCode int
 }
@@ -81,12 +83,16 @@ func (p person) print() {
 }
 ```
 
-# Pointer
+# Pointers
 
-```func (pointerToPerson *person) updateName(newFirstName string) {
+```
+func (pointerToPerson *person) updateName(newFirstName string) {
 	(*pointerToPerson ).firstName = newFirstName
-}```
-```jimPointer := &jim
+}
+```
+
+```
+jimPointer := &jim
 jimPointer.updateName("jimmy")
 
 // jim.updateName("jimmy") will work a shortcut to lines above
@@ -94,9 +100,9 @@ jimPointer.updateName("jimmy")
 jim.print()
 ```
 
-&jim is a pointer
-*person is a type pointer to a person
-*pointerToPerson is the value at the address
+- &jim is a pointer
+- *person is a type pointer to a person
+- *pointerToPerson is the value at the address
 
 
 
