@@ -4,6 +4,8 @@
 1. [Basic Syntax](#basic-syntax)
 2. [Tests](#tests)
     * [Command](#command)
+3. [Structs](#structs)
+4. [Pointer]
 
 # Basic Syntax
 
@@ -86,6 +88,9 @@ func (p person) print() {
 }```
 ```jimPointer := &jim
 jimPointer.updateName("jimmy")
+
+// jim.updateName("jimmy") will work a shortcut to lines above
+
 jim.print()
 ```
 
