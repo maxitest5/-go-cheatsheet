@@ -28,7 +28,7 @@ func main() {
 `go test`
 
 
-````type person struct {
+```type person struct {
 	firstName string
 	lastName  string
 }
@@ -44,7 +44,8 @@ func main() {
 
 	fmt.Println(alex)
 	fmt.Printf("%+v", alex)
-}```
+}
+```
 
 # Structs
 
@@ -75,7 +76,8 @@ func main() {
 
 func (p person) print() {
 	fmt.Printf("%+v", p)
-}```
+}
+```
 
 # Pointer
 
@@ -84,7 +86,8 @@ func (p person) print() {
 }```
 ```jimPointer := &jim
 jimPointer.updateName("jimmy")
-jim.print()```
+jim.print()
+```
 
 &jim is a pointer
 *person is a type pointer to a person
