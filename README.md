@@ -104,6 +104,14 @@ jim.print()
 - *person is a type pointer to a person
 - *pointerToPerson is the value at the address
 
+# Arguments in functions
+|Value Types|Reference Types|
+|--------|-----------|
+|int|slices|
+|float|maps|
+|string|channels|
+|bool|pointers|
+|structs|functions|
 
 
 https://github.com/a8m/golang-cheat-sheet/blob/master/README.md
