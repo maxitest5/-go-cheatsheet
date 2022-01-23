@@ -75,9 +75,9 @@ func main() {
 ```
 `$ go run hello.go`
 
-## Operators
-### Arithmetic
-|Operator|Description|
-|--------|-----------|
+## Test
+### Command
+
+`go mod init test3`
 
 https://github.com/a8m/golang-cheat-sheet/blob/master/README.md
